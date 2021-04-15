@@ -159,11 +159,67 @@ console.log(person1.getFullName()};
 // John Doe
 
 
-30 days challenge has started
+****30 days challenge has started
 
 **Day 1 done 
 
 **Day 2 data type 
+
+***In JavaScript the Math Object provides a lots of methods to work with numbers.
+
+`
+const PI = Math.PI
+
+console.log(PI)                            // 3.141592653589793
+
+// Rounding to the closest number
+// if above .5 up if less 0.5 down rounding
+
+console.log(Math.round(PI))                // 3 to round values to the nearest number
+
+console.log(Math.round(9.81))              // 10
+
+console.log(Math.floor(PI))                // 3 rounding down
+
+console.log(Math.ceil(PI))                 // 4 rounding up
+
+console.log(Math.min(-5, 3, 20, 4, 5, 10)) // -5, returns the minimum value
+
+console.log(Math.max(-5, 3, 20, 4, 5, 10)) // 20, returns the maximum value
+
+const randNum = Math.random() // creates random number between 0 to 0.999999
+console.log(randNum)
+
+// Let us  create random number between 0 to 10
+
+const num = Math.floor(Math.random () * 11) // creates random number between 0 and 10
+console.log(num)
+
+//Absolute value
+console.log(Math.abs(-10))      // 10
+
+//Square root
+console.log(Math.sqrt(100))     // 10
+
+console.log(Math.sqrt(2))       // 1.4142135623730951
+
+// Power
+console.log(Math.pow(3, 2))     // 9
+
+console.log(Math.E)             // 2.718
+
+// Logarithm
+// Returns the natural logarithm with base E of x, Math.log(x)
+console.log(Math.log(2))        // 0.6931471805599453
+console.log(Math.log(10))       // 2.302585092994046
+
+// Trigonometry
+Math.sin(0)
+Math.sin(60)
+
+Math.cos(0)
+Math.cos(60)`
+
 
 ***- Long Literal Strings
 We can use the backslash character (\) at the end of each line to indicate that the string will continue on the next line. Example:
@@ -187,6 +243,100 @@ console.log(paragraph)
 \': Single quote (')
 \": Double quote (")
 
+***Using a string template or string interpolation method, we can add expressions, which could be a value, or some operations (comparison, arithmetic operations, ternary operation).
+`
+let a = 2
+let b = 3
+console.log(`${a} is greater than ${b}: ${a > b}`)
+2 is greater than 3: false`
+
+
+***String Methods
+
+toUppercase() / toLowerCase()
+`
+let string = 'JavaScript'
+console.log(string.toUpperCase())     // JAVASCRIPT`
+
+substr(): It takes two arguments, the starting index and number of characters to slice.
+`
+let string = 'JavaScript'
+console.log(string.substr(4,6))    // Script`
+
+split(): The split method splits a string at a specified place.
+`
+let string = '30 Days Of JavaScript'
+console.log(string.split())     // Changes to an array -> ["30 Days Of JavaScript"]
+console.log(string.split(' '))  // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]`
+
+trim(): Removes trailing space in the beginning or the end of a string.
+`
+let string = '   30 Days Of JavaScript   '
+console.log(string)
+console.log(string.trim(' '))
+//    30 Days Of JavasCript   
+//30 Days Of JavasCript
+`
+
+includes(),
+replace(), 
+charAt() : takes index and it returns the value at the index
+`
+let string = '30 Days Of JavaScript'
+console.log(string.charAt(0))        // 3`
+
+concat(),
+startsWith(),
+endsWith(),
+search(),
+`
+let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+console.log(string.search('love'))          // 2
+console.log(string.search(/javascript/gi))  // 7`
+
+match(),
+repeat()
+
+**Checking data types and casting
+
+ with typeof method : 
+`
+let firstName = 'Asabeneh'      // string
+console.log(typeof 'Asabeneh')  // string
+`
+
+ Casting: Converting one data type to another data type. 
+We use :
+
+parseInt(), 
+parseFloat(),
+Number(), 
++ sign, 
++ str() 
+
+     String to Int (parseInt(), Number(), Plus sign(+)) 
+`
+let num = '10'
+let numInt = parseInt(num)
+console.log(numInt) // 10
+
+let num = '10'
+let numInt = Number(num)
+console.log(numInt) // 10
+
+let num = '10'
+let numInt = +num
+
+console.log(numInt) // 10
+`
+    String to Float (parseFloat(), Number(), Plus sign(+))
+    
+`
+let num = '9.81'
+let numFloat = parseFloat(num)
+
+console.log(numFloat) // 9.81
+`
 
 
 
