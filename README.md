@@ -1,10 +1,7 @@
 # Coding-diary
 Everyday learning
 
-Friday 2nd of April
-
-Have to redo all my work there is something wrong with the css
-it doesn't adds on. 
+[Friday 2nd of April](2021-04/02.md)
 
 Monday 5th of April 
 
