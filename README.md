@@ -3,7 +3,7 @@ Everyday learning
 
 [Friday 2nd of April](2021-04/02.md)
 
-Monday 5th of April 
+[Monday 5th of April] (2021-04/02.md)
 
 JavaScript
 
