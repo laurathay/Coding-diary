@@ -1,8 +1,16 @@
-#Booleans
+# Booleans
 
+## Get date
+getFullYear() : 2020
+getMonth() : 0- 11
+getDate() : day as number 0 - 31
+getHours() :
+getMinutes() :
+getSeconds() : milliseconde
+getTime() : milliseconde 
+getDay() : weekday 0-6
 
-
-##Comparison Operators
+## Comparison Operators
 The following symbols are the common logical operators: &&(ampersand) , ||(pipe) and !(negation). The && operator gets true only if the two operands are true. The || operator gets true either of the operand is true. The ! operator negates true to false and false to true.
 
 // && ampersand operator example
@@ -24,7 +32,7 @@ let isMarried = !false                // true
 
 
 
-##Increment Operators & Decrement avec -- pareil
+## Increment Operators & Decrement avec -- pareil
 
 Pre-increment
 let count = 0
