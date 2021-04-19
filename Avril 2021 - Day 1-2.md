@@ -5,23 +5,25 @@ Everyday learning
 
 [Monday 5th of April] (2021-04/02.md)
 
-JavaScript
+# JavaScript
 
 ——————————
 
-OBJECT PRIMITIVE
+## OBJECT PRIMITIVE
 ———————————
 
-petite fonctions de base :
+### petite fonctions de base :
 ````
 
 const s= [“a, b, c, d”]
 
 console.log(const.split(‘, ’));
 //rajoute un espace et une virgule entre chaque mot de l’array 
+````
 
-Pour faire un array : 
-
+````
+### Pour faire un array : 
+````
 const numbers = new Array [1, 2, 3];
 ou 
 const fruits = [“apple”, “oranges”, 10];
@@ -33,7 +35,10 @@ fruits.unshift(‘strawberries’); // enlever
 fruits.pop(); 
 console.log(fruits); //
 console.log(fruits.indexOf(‘oranges’)); //donne la position du fruits dans la liste
+````
+
 ——————————
+````
 const person = {
  firstName: ‘John’,
 lastName: ‘Doe’,
@@ -100,17 +105,17 @@ const todoCompleted = todos.filter(function(todo) {
 ````
 
 ——————————
-
-**simple condition 
+````
+##simple condition 
 && II 
 
-**comple condition
+## comple condition
 const x = 10;
 
 //? = then 
 `const color = x > 20 ? ‘red’ : ‘blue;
 
-**switch(color) {
+## switch(color) {
  case’red’:
 	console.log(‘color is red’);
 	break;
@@ -307,7 +312,7 @@ console.log(string.search(/javascript/gi))  // 7`
 match(),
 repeat()
 
-**Checking data types and casting
+## Checking data types and casting
 
  with typeof method : 
 `
@@ -315,7 +320,7 @@ let firstName = 'Asabeneh'      // string
 console.log(typeof 'Asabeneh')  // string
 `
 
- Casting: Converting one data type to another data type. 
+### Casting: Converting one data type to another data type. 
 We use :
 
 parseInt(), 
@@ -324,7 +329,7 @@ Number(),
 + sign, 
 + str() 
 
-     String to Int (parseInt(), Number(), Plus sign(+)) 
+###     String to Int (parseInt(), Number(), Plus sign(+)) 
 `
 let num = '10'
 let numInt = parseInt(num)
@@ -339,7 +344,7 @@ let numInt = +num
 
 console.log(numInt) // 10
 `
-    String to Float (parseFloat(), Number(), Plus sign(+))
+###    String to Float (parseFloat(), Number(), Plus sign(+))
     
 `
 let num = '9.81'
