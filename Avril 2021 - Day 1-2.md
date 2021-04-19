@@ -13,6 +13,7 @@ OBJECT PRIMITIVE
 ———————————
 
 petite fonctions de base :
+````
 
 const s= [“a, b, c, d”]
 
@@ -48,6 +49,7 @@ console.log(person.hobbies[1]),
 const {firstName, lastName, address: { city}} = person;
 
 console.log (city);
+`````
 
 ————————————————
 
@@ -57,18 +59,24 @@ double guillemets en JSON alors qu’en Js on peut utiliser juste un guillemet
 
 
 For loop
+`````
 for(let i = 0; i <= 10; i++) {
 	console.log(‘For Loop Numer: ${i}’};
 }
+````
 
 While loop
+````
+
 let i = 0;
 while (i < 10) {
 	console.log(‘While Loop Number: ${i}););
 	i++;    //nécessaire pour  incrémenter
 }
+````
 
 ———————————
+`````
 
 const todos = [
 	{
@@ -89,19 +97,20 @@ const todoCompleted = todos.filter(function(todo) {
 }).map(function(todo) {
 	return todo.text;
 });
+````
 
 ——————————
 
-simple condition 
+**simple condition 
 && II 
 
-comple condition
+**comple condition
 const x = 10;
 
 //? = then 
 `const color = x > 20 ? ‘red’ : ‘blue;
 
-switch(color) {
+**switch(color) {
  case’red’:
 	console.log(‘color is red’);
 	break;
@@ -114,23 +123,27 @@ default:
 }`
 
 ——————————————
+````
 
 `function addNums(num1 = 1, num2 = 1) {
 	return num1 + num2;
 }
 
 console.log(addNums(5, 5));`
+````
 
 ——————————————
+````
 
 const addNums = num1 => num1 + 5;
 
 console.log (addNums(5));
 todos.forEach((todo));
+`````
 
 _______________________
 
-OBJECT ORIENTED PROGRAMMING
+**OBJECT ORIENTED PROGRAMMING
 
 ——————————————
 
