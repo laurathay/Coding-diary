@@ -1,3 +1,5 @@
+# DAY 3
+
 # Booleans
 
 ## Get date
@@ -84,9 +86,24 @@ console.log(now.getTime()) // 1578092201341, this is the number of seconds passe
 
 
 
-[Image](src:https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/images/date_time_object.png)
 
+# DAY 4
 
+# Conditionals (if, else, swith, ternary operators)
+````
 
+switch(caseValue){
+  case 1:
+    // code
+    break
+  case 2:
+   // code
+   break
+  case 3:
+  // code
+  default:
+   // code
+}
+````
 
 
