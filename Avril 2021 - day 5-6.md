@@ -116,3 +116,78 @@ const numbers = [1, 2, 3, 4, 5]
 console.log(numbers.toString()) // 1,2,3,4,5
 ````
 
+***Joining array elements 
+````
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+
+console.log(names.join()) // Asabeneh,Mathias,Elias,Brook
+console.log(names.join('')) //AsabenehMathiasEliasBrook
+console.log(names.join(' ')) //Asabeneh Mathias Elias Brook
+````
+
+***Slice array elements
+
+Slice: To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position.
+```
+  const numbers = [1,2,3,4,5]
+
+  console.log(numbers.slice()) // -> it copies all  item
+  console.log(numbers.slice(0)) // -> it copies all  item
+  console.log(numbers.slice(0, numbers.length)) // it copies all  item
+  console.log(numbers.slice(1,4)) // -> [2,3,4] // it doesn't include the ending position
+  ````
+
+***Splice method in array
+
+Splice: It takes three parameters:Starting position, number of times to be removed and number of items to be added.
+````
+  const numbers = [1, 2, 3, 4, 5]
+
+  console.log(numbers.splice())                // -> remove all items
+  const numbers = [1, 2, 3, 4, 5]
+  console.log(numbers.splice(0,1))            // remove the first item
+  const numbers = [1, 2, 3, 4, 5, 6];
+  console.log(numbers.splice(3, 3, 7, 8, 9))  // -> [1, 2, 3, 7, 8, 9] //it removes three item and replace three items
+  ````
+
+***Add with push
+````
+const numbers = [1, 2, 3, 4, 5]
+numbers.push(6)
+
+console.log(numbers) // -> [1,2,3,4,5,6]
+
+numbers.pop() // -> remove one item from the end
+console.log(numbers) // -> [1,2,3,4,5]
+````
+
+***Removing the end element using pop
+
+pop: Removing item in the end.
+````
+const numbers = [1, 2, 3, 4, 5]
+numbers.pop() // -> remove one item from the end
+
+console.log(numbers) // -> [1,2,3,4]
+````
+
+***Removing an element from the beginning
+
+shift: Removing one array element in the beginning of the array.
+````
+const numbers = [1, 2, 3, 4, 5]
+numbers.shift() // -> remove one item from the beginning
+
+console.log(numbers) // -> [2,3,4,5]
+````
+
+***Add an element from the beginning
+
+unshift: Adding array element in the beginning of the array.
+````
+const numbers = [1, 2, 3, 4, 5]
+numbers.unshift(0) // -> add one item from the beginning
+
+console.log(numbers) // -> [0,1,2,3,4,5]
+````
+
