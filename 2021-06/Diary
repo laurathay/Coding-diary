@@ -5,6 +5,14 @@
 ### Solo learn
 
 React :
+- developped by Facebook
+- Fast : Compared to other libraries tha manipulate the Dom, React uses a virtual DOM, allowing to update only the parts of the website that have changed
+- Ease to use : making building and maintaining large scale applications much less complex
+
+Terminal :
+npx create-react-app my-app (my-app étant le nom du dossier qu'on créer)
+cd my-app
+npm start
 
 Redux :
 - 
