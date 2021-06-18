@@ -14,6 +14,20 @@ npx create-react-app my-app (my-app étant le nom du dossier qu'on créer)
 cd my-app
 npm start
 
+Folder:
+- public : whatever the end-user see, logos, images, index.html
+- src : js, css, index.js, app.js :file is the main component that will be rendered to the DOM
+
+Element: 
+- ReactDOM.render (
+    <p> I am learnning React </p>,
+    document.getElementById('test'));
+    
+Index.js:
+- import React from 'react';
+- import ReactDOM from 'react-dom';
+- import './style.css';l
+
 Redux :
 - 
 - store
