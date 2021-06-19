@@ -28,6 +28,12 @@ Index.js:
 - import ReactDOM from 'react-dom';
 - import './style.css';l
 
+JSX : 
+- its HTML in Js code 
+- syntaxe extension to Js 
+- isn't required by React but common use 
+
+
 Redux :
 - 
 - store
