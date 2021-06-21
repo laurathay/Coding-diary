@@ -33,9 +33,12 @@ JSX :
 - syntaxe extension to Js 
 - isn't required by React but common use 
 
-
 Redux :
 - 
 - store
 - connect
 - reducer 
+
+
+Domestika : 
+- UI design
