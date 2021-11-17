@@ -2,7 +2,8 @@
 - bug bdd, essayer d'installer un environnement clean mais Guillaume pas dispo 
 
 ## Aujourd'hui : 
-- miracle resolu avec les paroles du messi 
+- miracle resolu avec les paroles du messi,
+   il manquait juste l'extension ACF extended 
 " tu peux très bien partir d’une DB vierge, à partir du moment où tu as les extensions ACF et ACF Extended installées et activés, tes champs ACF sont synchros "
 - problèmes du jour : 
    1. sass / gulp ne se connecte pas 
